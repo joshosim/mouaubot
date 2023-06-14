@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: white;
+    font-family: "Ubuntu";
+    box-sizing: border-box;
+}
+
+#logo{
+    height: 65px;
+    width: 65px;
+
+}
+.navbar{
+    padding: 10px 30px;
+}
+
+.navbar .links ul li {
+    list-style: none;
+    font-size: 20px;
+    
+}
+.links ul li a{
+    text-decoration: none;
+    
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    padding: 10px 30px;
+}
+.content .left{
+    float: left;
+    width: 50%;
+}
+.content .left h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.content .left ul li{
+    list-style-type: square;
+    font-size: 25px;
+    
+}
+.content .right{
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 180px;
+}
+.content .right input{
+    padding: 15px 50px;
+    background-color: rgb(65, 236, 65);
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+}
+
+@media(max-width: 600px) {
+    .navbar{
+        padding: 0px 30px;
+        text-align: center;
+    }
+    
+    .navbar .links ul li {
+        font-size: 17px;
+        list-style: none;
+        padding: 0px 0px 25px 0px;
+    }
+    .links ul li a{
+        text-decoration: none;
+        
+        
+    }
+    .links ul{
+        display: block;
+        
+    }
+    .content{
+        padding: 5px 25px;
+    }
+    .content .left{
+        float: none;
+        width: 100%;
+    }
+    .content .left h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .content .left p{
+        text-align: justify;
+        font-size: 25px;
+        
+    }
+    .content .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 180px;
+    }
+    .content .right input{
+        padding: 15px 50px;
+        background-color: rgb(65, 236, 65);
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+    }
+}
